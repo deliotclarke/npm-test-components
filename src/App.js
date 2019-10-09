@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+import ThatButton from '@deliotclarke/first-component';
+
 
 function App() {
   return (
@@ -18,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <ThatButton />
       </header>
     </div>
   );
